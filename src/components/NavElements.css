@@ -1,0 +1,24 @@
+
+
+.elements {
+    /* display: flex; */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.element-item{
+    
+    padding: 0 2px;
+    margin:  10px;
+    /* border: 0.5px solid black; */
+    border-radius: 3px;
+    width: 80px;
+    justify-content: center;
+    cursor: pointer;
+    /* background-color: rgb(241, 247, 245); */
+}
+.element-item:hover{
+    color: rgb(138, 138, 240);
+}
